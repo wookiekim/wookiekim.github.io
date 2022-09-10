@@ -54,149 +54,128 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: Introduction
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am Seungwook Kim, a highly self-motivated PhD candidate mainly researching on visual correpsondences of 2D images or 3D point clouds, 
+      and their applications. I am under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/) in the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/).
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Integrated MSc/PhD in Graduate School of AI
+        university: POSTECH
+        time: 2020 - 2026 (expected)
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/).
+          - Graduate School of AI research Excellent Paper Award, 2021
+          - Reviewer for: WACV 2022/2023, CVPR 2022, ECCV 2022, 3DV 2022
+
+      - degree: BSc in Computer Sciences & Engineering
+        university: POSTECH
+        time: 2015 - 2020
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - **Cumulative GPA**: 3.70 / 4.3
+          - Jigok Scholarship (Full scholarship)
+          - Student Mentoring Program Scholarship (Monthly scholarship)
+          - On-school Work Scholarship (Per-semester scholarship)
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Undergraduate Intern / 3D Map construction from LiDAR
+        time: 03.2020 - 37.2020
+        company: Polaris3D, Pohang, South Korea
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Implemented the process of retrieving data from Intel Realsense cameras to Jetson Nano in real-time.
+          - Merged the two streams of data from two different angles to output a 3D map in real-time.
+
+      - role: Undergraduate Intern / Camera ISP
+        time: 12.2019 - 01.2020
+        company: SK Hynix, Icheon, South Korea
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Analyzed the image post-processing algorithms applied to raw images obtained from senseors.
+          - Identified an imbalance in the dark corners (vignetting) of a raw image from a sensor under development.
+
+      - role: Undergraduate Intern / AI team
+        time: 06.2019 - 08.2019
+        company: Netmarble, Seoul, South Korea
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          - Developed prior speech-to-3D lip synthesis pipeline to be light-weight (mobile-runnable) using TensorFlow.
+          - Accepted to Korea Software Congress 2019 (VOL 46 NO. 02 PP. 1690 ~ 1692 2019. 12)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - role: Undergraduate Intern / Data Engineering & Analysis team
+        time: 02.2018 — 12.2018
+        company: Dable, Seoul, South Korea
+        details: |
+          - Analyzed heavy-traffic raw data collected at AWS RedShift using PostgreSQL.
+          - Developed batch codes that run regularly on the AWS RedShift to output processed data on a MySQL server.
+          - Analyzed processed data using MySQL.
+          - Developed web crawling system to identify potential blog clients.
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      List of publications which have been accepted / are under review for **international** journals and conferences.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Convolutional Hough Matching Networks for Robust and Efficient Visual Correspondence
+        link: "https://arxiv.org/abs/2109.05221"
+        authors: Juhong Min, **Seungwook Kim**, Minsu Cho
+        conference: Under review
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: TransforMatcher: Match-to-Match Attention for Semantic Correspondence
+        link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
+        authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Deep Hough Voting for Robust Global Registration
+        link: "https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf"
+        authors: Junha Lee, <b>Seungwook Kim</b>, Minsu Cho, Jaesik Park
+        conference: "The IEEE / CVF International Conference on Computer Vision (ICCV) 2021 @ Montreal"
+
+      - title: Learning to Distill Convolutional Features into Compact Local Descriptors
+        link: "https://openaccess.thecvf.com/content/WACV2021/papers/Lee_Learning_to_Distill_Convolutional_Features_Into_Compact_Local_Descriptors_WACV_2021_paper.pdf"
+        authors: Jongmin Lee, Yoonwoo Jeong, <b>Seungwook Kim</b>, Juhong Min, Minsu Cho
+        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2021 @ Hawaii" 
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & PyTorch
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: C & C++
         level: 98%
 
-      - name: Angular
+      - name: PostgreSQL & MySQL & RedShift
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    © 2022 Seungwook Kim
