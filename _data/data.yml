@@ -146,7 +146,7 @@ publications:
         authors: Juhong Min, **Seungwook Kim**, Minsu Cho
         conference: Under review
 
-      - title: TransforMatcher: Match-to-Match Attention for Semantic Correspondence
+      - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
         link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
         authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
         conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans"
