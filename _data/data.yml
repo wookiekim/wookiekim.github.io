@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: 9321816/wookiekim # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: assets/misc/CV_seungwook.pdf
 
     languages:
       title: Languages
@@ -44,13 +44,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Urban Drawing
           link:
 
-        - item: Snowboarding
+        - item: Essay Writing
           link:
 
-        - item: Cooking
+        - item: Piano
           link:
 
 career-profile:
