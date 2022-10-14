@@ -143,7 +143,7 @@ publications:
     papers:
       - title: Convolutional Hough Matching Networks for Robust and Efficient Visual Correspondence
         link: "https://arxiv.org/abs/2109.05221"
-        authors: Juhong Min, **Seungwook Kim**, Minsu Cho
+        authors: Juhong Min, <b>Seungwook Kim</b>, Minsu Cho
         conference: Under review
 
       - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
