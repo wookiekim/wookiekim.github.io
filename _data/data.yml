@@ -146,7 +146,7 @@ publications:
         authors: Juhong Min, <b>Seungwook Kim</b>, Minsu Cho
         conference: Under review
         
-      - title: SeLCA: Self-Supervised Learning of Canonical Axis
+      - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
         authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
         conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans"
