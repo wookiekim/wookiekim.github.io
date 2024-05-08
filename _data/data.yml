@@ -56,8 +56,9 @@ sidebar:
 career-profile:
     title: Introduction
     summary: |
-      I am Seungwook Kim, a highly self-motivated PhD candidate mainly researching on visual correpsondences of 2D images or 3D point clouds, 
-      and their applications. I am under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/) in the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/).
+      I am Seungwook Kim, a highly self-motivated PhD candidate mainly researching on (1) visual correspondences between 2D images or 3D point clouds (and their applications), 
+      (2) 2D/3D Equivariance, and (3) {Text,Image}-to-{3D,Video} Generation.
+      I am under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/) in the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/).
 education:
     title: Education
     info:
@@ -66,8 +67,9 @@ education:
         time: 2020 - 2026 (expected)
         details: |
           Under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/).
-          - Graduate School of AI research Excellent Paper Award, 2021
-          - Reviewer for: WACV 2022/2023, CVPR 2022, ECCV 2022, 3DV 2022
+          - Graduate School of AI research Excellent Paper Award, 2021, 2023
+          - POSTECHIAN Fellowship (Leadership) 2022
+          - (Emergency) Reviewer for: CVPR, ECCV, ICCV, NeurIPS, ICML, TPAMI, 3DV, WACV, ACCV (2022-24)
 
       - degree: BSc in Computer Sciences & Engineering
         university: POSTECH
@@ -80,6 +82,19 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: PhD Intern / Data-Intelligent Creation-Vision and Graphics team
+        time: 09.2023 - 02.2024
+        company: ByteDance, CA, USA
+        details: |
+          - Worked on improving {image,text}-to-3D generation models.
+          - Published 2 papers: [CorrespondentDream](https://wookiekim.github.io/CorrespondentDream/) (CVPR 2024) and [MultiImageDream](https://arxiv.org/pdf/2404.17419) (Arxiv 2024)
+
+      - role: Technical Chair
+        time: 05.2024 - 12.2024
+        company: ACCV, Hanoi, Vietnam
+        details: |
+          - (Expected to have) Managed the Microsoft CMT for coordinating paper submission and reviewing process.
+
       - role: Undergraduate Intern / 3D Map construction from LiDAR
         time: 03.2020 - 37.2020
         company: Polaris3D, Pohang, South Korea
@@ -141,10 +156,45 @@ publications:
     intro: |
       List of publications which have been accepted / are under review for **international** journals and conferences.
     papers:
+      - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
+        link: "https://wookiekim.github.io/"
+        authors: Nahyuk Lee*, Juhong Min*, Junha Lee, <b>Seungwook Kim</b>, Kanghee Lee, Jaesik Park, Minsu Cho
+        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne"
+
+      - title: Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation
+        link: "https://arxiv.org/abs/2404.17419"
+        authors: 
+        conference: "Arxiv 2024"
+
+      - title: Enhancing 3D Fidelity of Text-to-3D using Cross-View Correspondences
+        link: "https://arxiv.org/abs/2303.15472"
+        authors: <b>Seungwook Kim</b>, Kejie Li, Xueqing Deng, Yichun Shi, Minsu Cho, Peng Wang
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2024 @ Seattle"
+
+      - title: Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform
+        link: "https://arxiv.org/abs/2404.11156"
+        authors: Chunghyun Park*, <b>Seungwook Kim*</b>, Jaesik Park, Minsu Cho
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2024 @ Seattle"
+
+      - title: Efficient Semantic Matching with Hypercolumn Correlation (Best paper finalist)
+        link: "https://arxiv.org/abs/2311.04336"
+        authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho
+        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024 @ Big Island"
+
+      - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
+        link: "https://arxiv.org/abs/2306.11406"
+        authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
+        conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu"
+      
+      - title: Learning Rotation-Equivariant Features for Visual Correspondence
+        link: "https://arxiv.org/abs/2303.15472"
+        authors: Jongmin Lee, Byungjin Kim, <b>Seungwook Kim</b>, Minsu Cho
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2023 @ Vancouver"
+
       - title: Convolutional Hough Matching Networks for Robust and Efficient Visual Correspondence
         link: "https://arxiv.org/abs/2109.05221"
         authors: Juhong Min, <b>Seungwook Kim</b>, Minsu Cho
-        conference: Under review
+        conference: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2023
         
       - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
