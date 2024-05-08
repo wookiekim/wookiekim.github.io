@@ -163,7 +163,7 @@ publications:
 
       - title: Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation
         link: "https://arxiv.org/abs/2404.17419"
-        authors: 
+        authors: Seungwook Kim, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang
         conference: "Arxiv 2024"
 
       - title: Enhancing 3D Fidelity of Text-to-3D using Cross-View Correspondences
@@ -182,6 +182,7 @@ publications:
         conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024 @ Big Island"
 
       - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
+        intro: Presented as talk @ KETI (Korean Electronics Technology Institute)
         link: "https://arxiv.org/abs/2306.11406"
         authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
         conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu"
@@ -197,11 +198,13 @@ publications:
         conference: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2023
         
       - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
+        intro: Presented as talk @ SAIT (Samsung Advanced Institute of Technology)
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
         authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
         conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans"
 
       - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
+        intro: Presented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)
         link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
         authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
         conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans"
