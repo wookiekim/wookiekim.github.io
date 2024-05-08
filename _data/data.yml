@@ -183,11 +183,9 @@ publications:
       - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
         link: "https://arxiv.org/abs/2306.11406"
         authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
-        conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu
-
-        \n
-
-        Presented as talk @ KETI (Korean Electronics Technology Institute)"
+        conference: >
+        International Conference on Machine Learning (ICML) 2023 @ Honolulu
+        Presented as talk @ KETI (Korean Electronics Technology Institute)
       
       - title: Learning Rotation-Equivariant Features for Visual Correspondence
         link: "https://arxiv.org/abs/2303.15472"
@@ -202,20 +200,16 @@ publications:
       - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
         authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
-        conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans
-
-        \n
-
-        Presented as talk @ SAIT (Samsung Advanced Institute of Technology)"
+        conference: >
+        Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans
+        Presented as talk @ SAIT (Samsung Advanced Institute of Technology)
 
       - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
         link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
         authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans
-
-        \n
-        
-        Presented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)"
+        conference: >
+        The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans
+        Presented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)
 
       - title: Deep Hough Voting for Robust Global Registration
         link: "https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf"
