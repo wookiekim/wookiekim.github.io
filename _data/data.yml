@@ -159,7 +159,7 @@ publications:
       - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
         link: "https://wookiekim.github.io/"
         authors: Nahyuk Lee*, Juhong Min*, Junha Lee, <b>Seungwook Kim</b>, Kanghee Lee, Jaesik Park, Minsu Cho
-        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne"
+        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne \\ test"
 
       - title: Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation
         link: "https://arxiv.org/abs/2404.17419"
