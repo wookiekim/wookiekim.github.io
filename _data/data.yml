@@ -126,32 +126,29 @@ experiences:
           - Developed web crawling system to identify potential blog clients.
 
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Honours & Awards
+#     # intro: >
+#       assignments:
+#       - title: Velocity
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#         # link: "#hook"
 
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+# #       - title: DevStudio
+# #         link: "#"
+# #         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# #       - title: Tempo
+# #         link: "#"
+# #         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# #       - title: Atom
+# #         link: "#"
+# #         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# #       - title: Delta
+# #         link: "#"
+# #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
@@ -161,7 +158,7 @@ publications:
       - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
         link: "https://wookiekim.github.io/"
         authors: Nahyuk Lee*, Juhong Min*, Junha Lee, <b>Seungwook Kim</b>, Kanghee Lee, Jaesik Park, Minsu Cho
-        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne \\ test"
+        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne"
 
       - title: Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation
         link: "https://arxiv.org/abs/2404.17419"
@@ -184,10 +181,9 @@ publications:
         conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024 @ Big Island"
 
       - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
-        intro: Presented as talk @ KETI (Korean Electronics Technology Institute)
         link: "https://arxiv.org/abs/2306.11406"
         authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
-        conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu"
+        conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu \nPresented as talk @ KETI (Korean Electronics Technology Institute)"
       
       - title: Learning Rotation-Equivariant Features for Visual Correspondence
         link: "https://arxiv.org/abs/2303.15472"
@@ -200,16 +196,14 @@ publications:
         conference: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2023
         
       - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
-        intro: Presented as talk @ SAIT (Samsung Advanced Institute of Technology)
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
         authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
-        conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans"
+        conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans\nPresented as talk @ SAIT (Samsung Advanced Institute of Technology)"
 
       - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
-        intro: Presented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)
         link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
         authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans"
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans \nPresented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)"
 
       - title: Deep Hough Voting for Robust Global Registration
         link: "https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf"
