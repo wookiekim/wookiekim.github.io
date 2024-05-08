@@ -183,7 +183,7 @@ publications:
       - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
         link: "https://arxiv.org/abs/2306.11406"
         authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
-        conference: >
+        conference: |
         International Conference on Machine Learning (ICML) 2023 @ Honolulu
         Presented as talk @ KETI (Korean Electronics Technology Institute)
       
@@ -200,14 +200,14 @@ publications:
       - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
         link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
         authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
-        conference: >
+        conference: |
         Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans
         Presented as talk @ SAIT (Samsung Advanced Institute of Technology)
 
       - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
         link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
         authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
-        conference: >
+        conference: |
         The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans
         Presented as talk @ KETI (Korean Electronics Technology Institute), SAIT (Samsung Advanced Institute of Technology), KCCV (Korean Conference on Computer Vision)
 
