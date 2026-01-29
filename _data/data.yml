@@ -56,7 +56,7 @@ sidebar:
 career-profile:
     title: Introduction
     summary: |
-      I am Seungwook Kim, a highly self-motivated PhD candidate mainly researching on (1) visual correspondences between 2D images or 3D point clouds (and their applications), 
+      I am Seungwook Kim, a highly self-motivated researcher mainly researching on (1) visual correspondences between 2D images or 3D point clouds (and their applications), 
       (2) 2D/3D Equivariance, and (3) {Text,Image}-to-{3D,Video} Generation.
       I am under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/) in the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/).
 education:
@@ -64,12 +64,14 @@ education:
     info:
       - degree: Integrated MSc/PhD in Graduate School of AI
         university: POSTECH
-        time: 2020 - 2026 (expected)
+        time: 09.2020 - 02.2026
         details: |
           Under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/).
           - Graduate School of AI research Excellent Paper Award, 2021, 2023
           - POSTECHIAN Fellowship (Leadership) 2022
+          - POSTECHIAN Fellowship (Innovation) 2024
           - (Emergency) Reviewer for: CVPR, ECCV, ICCV, NeurIPS, ICML, TPAMI, 3DV, WACV, ACCV (2022-24)
+          - Outstanding Reviewer for CVPR 2025
 
       - degree: BSc in Computer Sciences & Engineering
         university: POSTECH
@@ -82,6 +84,13 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: PhD Intern / Bytedance Seed Team
+        time: 06.2024 - 12.2024
+        company: ByteDance, CA, USA
+        details: |
+          - Worked on improving the efficiency and consistency of {image,text}-to-multiview generation models.
+          - Published 1 paper: [RapidMV](https://arxiv.org/abs/2509.24410) (WACV 2026)
+    
       - role: PhD Intern / Data-Intelligent Creation-Vision and Graphics team
         time: 09.2023 - 02.2024
         company: ByteDance, CA, USA
@@ -93,7 +102,7 @@ experiences:
         time: 05.2024 - 12.2024
         company: ACCV, Hanoi, Vietnam
         details: |
-          - (Expected to have) Managed the Microsoft CMT for coordinating paper submission and reviewing process.
+          - Managed the Microsoft CMT for coordinating paper submission and reviewing process.
 
       - role: Undergraduate Intern / 3D Map construction from LiDAR
         time: 03.2020 - 37.2020
@@ -155,8 +164,34 @@ publications:
     intro: |
       List of publications which have been accepted / are under review for **international** journals and conferences.
     papers:
-      - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
+
+      - title: Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards
         link: "https://wookiekim.github.io/"
+        authors: <b>Seungwook Kim</b>, Minsu Cho
+        conference: "Under Review"
+
+      - title: "FreeAction: Training-Free Techniques for Enhanced Fidelity of Trajectory-to-Video Generation" 
+        link: "https://www.arxiv.org/abs/2509.24241"
+        authors: <b>Seungwook Kim</b>, Seunghyeon Lee, Minsu Cho
+        conference: "2025 Conference on Robot Learning @ Seoul, South Korea - Workshop on Learning to Simulate Robot Worlds"
+
+      - title: "RapidMV: Leveraging Spatio-Angular Representations for Efficient and Consistent Text-to-Multi-View Synthesis "
+        link: "https://arxiv.org/abs/2509.24410"
+        authors: <b>Seungwook Kim</b>, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang
+        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026 @ Arizona"
+
+      - title: Similarity-Aware Selective State-Space Modeling for Semantic Correspondence 
+        link: "https://arxiv.org/abs/2509.24318"
+        authors: <b>Seungwook Kim</b>, Minsu Cho
+        conference: "The IEEE / CVF International Conference on Computer Vision (ICCV) 2025 @ Honolulu, Hawaii - Findings <b>(Oral)</b>"
+
+      - title: Harnessing the Power of Training-Free Techniques for Text-to-3D Generation via Score Distillation Sampling 
+        link: "https://arxiv.org/abs/2505.19868"
+        authors: Junhong Lee, <b>Seungwook Kim</b>, Minsu Cho
+        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025 @ Nashville - Workshop on AI4CC"
+    
+      - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
+        link: "https://arxiv.org/abs/2407.10542"
         authors: Nahyuk Lee*, Juhong Min*, Junha Lee, <b>Seungwook Kim</b>, Kanghee Lee, Jaesik Park, Minsu Cho
         conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne"
 
