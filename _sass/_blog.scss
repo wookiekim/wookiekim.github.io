@@ -1,0 +1,155 @@
+/* ======= Blog Post ======= */
+.blog-post {
+  padding: 48px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: $font-size-sm;
+  color: $color-primary;
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.blog-post__title {
+  font-size: 48px;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.blog-post__meta {
+  margin-bottom: 16px;
+}
+
+.blog-post__authors {
+  font-size: $font-size-base;
+  color: $color-text-light;
+  b {
+    color: $color-text;
+  }
+}
+
+.blog-post__venue {
+  font-size: $font-size-sm;
+  color: $color-accent;
+}
+
+.blog-post__links {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.blog-post__thumbnail {
+  margin-bottom: 32px;
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.blog-post__content {
+  font-size: $font-size-base;
+  line-height: 1.5;
+
+  h2 {
+    font-size: 38px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  img {
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+
+  code {
+    background: $green-50;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background: $green-900;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 16px 0;
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+
+  ul, ol {
+    padding-left: 24px;
+    margin-bottom: 16px;
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+}
+
+/* ======= Blog Index ======= */
+.blog-index__intro {
+  font-size: $font-size-base;
+  color: $color-text-light;
+  margin-bottom: 24px;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-list__item {
+  display: flex;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid $green-100;
+  color: $color-text;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.blog-list__date {
+  flex-shrink: 0;
+  width: 60px;
+  color: $color-accent;
+  font-weight: 700;
+  font-size: $font-size-sm;
+}
+
+.blog-list__title {
+  font-size: $font-size-base;
+  font-weight: 700;
+}
+
+.blog-list__venue {
+  flex-shrink: 0;
+  font-size: $font-size-xs;
+  color: $color-text-light;
+  margin-left: auto;
+}
+
+.blog-index__empty {
+  color: $color-text-light;
+  font-size: $font-size-base;
+}

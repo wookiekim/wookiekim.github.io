@@ -1,9 +1,68 @@
-<!-- Javascript -->
-<script type="text/javascript" src="{{site.baseurl}}/assets/plugins/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script>
+// Hamburger menu toggle
+document.getElementById('nav-toggle').addEventListener('click', function() {
+  document.getElementById('nav-links').classList.toggle('navbar__links--open');
+  this.classList.toggle('navbar__toggle--active');
+});
 
-<!-- custom js -->
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+// Close mobile menu on link click
+document.querySelectorAll('.navbar__links a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    document.getElementById('nav-links').classList.remove('navbar__links--open');
+    document.getElementById('nav-toggle').classList.remove('navbar__toggle--active');
+  });
+});
+
+// News toggle
+function toggleNews() {
+  var items = document.querySelectorAll('.news-item--hidden');
+  var btn = document.getElementById('news-toggle');
+  var isHidden = items[0] && items[0].style.display !== 'flex';
+  items.forEach(function(item) {
+    item.style.display = isHidden ? 'flex' : 'none';
+  });
+  btn.textContent = isHidden ? 'Show less' : 'Show more';
+}
+
+// Experiences toggle
+function toggleExperiences() {
+  var items = document.querySelectorAll('.exp-item--hidden');
+  var btn = document.getElementById('exp-toggle');
+  var isHidden = items[0] && items[0].style.display !== 'block';
+  items.forEach(function(item) {
+    item.style.display = isHidden ? 'block' : 'none';
+  });
+  btn.textContent = isHidden ? 'Show less' : 'Show more';
+}
+
+// BibTeX toggle
+function toggleBibtex(btn) {
+  var card = btn.closest('.pub-card');
+  var bibtex = card.querySelector('.pub-card__bibtex');
+  if (bibtex.style.display === 'none') {
+    bibtex.style.display = 'block';
+  } else {
+    bibtex.style.display = 'none';
+  }
+}
+
+// Copy BibTeX
+function copyBibtex(btn) {
+  var code = btn.parentElement.querySelector('code');
+  navigator.clipboard.writeText(code.textContent).then(function() {
+    btn.textContent = 'Copied!';
+    setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+  });
+}
+
+// Initialize hidden states
+document.querySelectorAll('.news-item--hidden').forEach(function(item) {
+  item.style.display = 'none';
+});
+document.querySelectorAll('.exp-item--hidden').forEach(function(item) {
+  item.style.display = 'none';
+});
+</script>
 
 {% if site.analytics %}
   {% include analytics.html %}

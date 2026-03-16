@@ -1,0 +1,193 @@
+/* ======= Hero ======= */
+.hero {
+  padding: 28px 0;
+  border-bottom: 1px solid $green-100;
+}
+
+.hero__content {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.hero__photo {
+  flex-shrink: 0;
+  img {
+    width: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid $green-300;
+  }
+}
+
+.hero__name {
+  font-size: $font-size-h1;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.hero__tagline {
+  font-size: $font-size-h3;
+  color: $color-accent;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.hero__bio {
+  font-size: $font-size-base;
+  color: $color-text;
+  margin-bottom: 10px;
+  a {
+    color: $color-primary;
+    text-decoration: underline;
+    text-decoration-color: $green-300;
+    text-underline-offset: 2px;
+    &:hover {
+      text-decoration-color: $color-primary;
+    }
+  }
+}
+
+.hero__emails {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 10px;
+  font-size: $font-size-sm;
+  color: $color-text-light;
+}
+
+.hero__links {
+  display: flex;
+  gap: 16px;
+  a {
+    color: $color-text-light;
+    transition: color 0.2s;
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+/* ======= News ======= */
+.news-list {
+  list-style: none;
+}
+
+.news-item {
+  display: flex;
+  gap: 16px;
+  padding: 5px 0;
+  border-bottom: 1px solid $green-100;
+  font-size: $font-size-base;
+}
+
+.news-item__date {
+  flex-shrink: 0;
+  width: 100px;
+  color: $color-accent;
+  font-weight: 700;
+}
+
+.news-item__text {
+  color: $color-text;
+}
+
+/* ======= Honors ======= */
+.honors-list {
+  list-style: none;
+}
+
+.honors-item {
+  display: flex;
+  gap: 16px;
+  padding: 5px 0;
+  font-size: $font-size-base;
+}
+
+.honors-item__year {
+  flex-shrink: 0;
+  width: 100px;
+  color: $color-accent;
+  font-weight: 700;
+}
+
+.honors-item__title {
+  color: $color-text;
+}
+
+/* ======= Experiences ======= */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exp-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.exp-item__role {
+  font-size: $font-size-h3;
+  color: $green-900;
+  margin-bottom: 0;
+}
+
+.exp-item__time {
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  flex-shrink: 0;
+}
+
+.exp-item__company {
+  font-size: $font-size-sm;
+  color: $color-accent;
+  margin-bottom: 4px;
+}
+
+.exp-item__details {
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  p {
+    margin-bottom: 4px;
+  }
+}
+
+/* ======= Education ======= */
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edu-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.edu-item__degree {
+  font-size: $font-size-h3;
+  color: $green-900;
+  margin-bottom: 0;
+}
+
+.edu-item__time {
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  flex-shrink: 0;
+}
+
+.edu-item__university {
+  font-size: $font-size-sm;
+  color: $color-accent;
+  margin-bottom: 2px;
+}
+
+.edu-item__detail {
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  margin-bottom: 2px;
+}

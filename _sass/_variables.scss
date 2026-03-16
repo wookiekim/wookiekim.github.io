@@ -1,0 +1,29 @@
+// Green color palette
+$green-900: #1B4332;
+$green-700: #2D6A4F;
+$green-500: #40916C;
+$green-300: #74C69D;
+$green-100: #D8F3DC;
+$green-50:  #F0FFF4;
+
+// Semantic aliases
+$color-primary: $green-700;
+$color-accent: $green-500;
+$color-bg: #ffffff;
+$color-bg-alt: $green-50;
+$color-text: #2d3436;
+$color-text-light: #636e72;
+$color-border: $green-300;
+
+// Typography
+$font-family: 'Dongle', sans-serif;
+$font-size-base: 26px;
+$font-size-sm: 22px;
+$font-size-xs: 20px;
+$font-size-h1: 60px;
+$font-size-h2: 46px;
+$font-size-h3: 34px;
+
+// Layout
+$container-max: 900px;
+$navbar-height: 60px;

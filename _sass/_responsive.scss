@@ -1,58 +1,87 @@
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-  body {
-    padding: 0;
-  }
-
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-
-  .wrapper {
+/* ======= Responsive ======= */
+@media (max-width: 768px) {
+  .navbar__toggle {
     display: block;
   }
 
-  .main-wrapper {
-    padding: 30px;
+  .navbar__links {
+    display: none;
+    position: absolute;
+    top: $navbar-height;
+    left: 0;
+    right: 0;
+    background: $green-900;
+    flex-direction: column;
+    padding: 16px 24px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
 
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
+  .navbar__links--open {
+    display: flex;
   }
 
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
+  .navbar__separator {
+    width: auto;
+    height: 1px;
+    margin: 4px 0;
   }
 
-  .skillset .level-bar {
-    display: inline-block;
-    width: 70%;
-    float: left;
-    position: relative;
-    top: 1px;
+  .blog-list__item {
+    flex-direction: column;
+    gap: 4px;
   }
-}
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+  .blog-list__venue {
+    margin-left: 0;
+  }
 
-/* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
+  .hero__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__links {
+    justify-content: center;
+  }
+
+  .hero__name {
+    font-size: 48px;
+  }
+
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-card__thumb {
+    width: 100%;
+  }
+
+  .exp-item__header,
+  .edu-item__header {
+    flex-direction: column;
+  }
+
+  .exp-item__time,
+  .edu-item__time {
+    margin-top: 2px;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .news-item__date {
+    width: auto;
+  }
+
+  .honors-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .honors-item__year {
+    width: auto;
+  }
 }

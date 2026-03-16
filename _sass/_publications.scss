@@ -1,0 +1,100 @@
+/* ======= Publications ======= */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pub-card {
+  display: flex;
+  gap: 20px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid $green-100;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+}
+
+.pub-card__thumb {
+  flex-shrink: 0;
+  width: 160px;
+  img {
+    width: 100%;
+    border-radius: 4px;
+  }
+}
+
+.pub-card__title {
+  font-size: 28px;
+  color: $green-900;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.pub-card__authors {
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  margin-bottom: 2px;
+  b {
+    color: $color-text;
+    font-weight: 700;
+  }
+}
+
+.pub-card__venue {
+  font-size: $font-size-xs;
+  color: $color-accent;
+  margin-bottom: 8px;
+  b {
+    font-weight: 700;
+  }
+}
+
+.pub-card__thumb-placeholder {
+  width: 100%;
+  padding-bottom: 60%;
+  background: $green-50;
+  border-radius: 4px;
+}
+
+.pub-card__links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn--disabled {
+  background: $green-300;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.btn--bibtex {
+  cursor: pointer;
+}
+
+.btn--copy {
+  margin-top: 4px;
+}
+
+.pub-card__bibtex {
+  margin-top: 8px;
+  pre {
+    background: $green-50;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  code {
+    font-family: monospace;
+    font-size: 14px;
+  }
+}

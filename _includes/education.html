@@ -1,54 +1,23 @@
 {% assign education = site.data.data.education %}
 {% if education %}
-  {% if site.data.data.sidebar.education %}
-  <div class="education-container container-block">
-
-    <h2 class="container-block-title">
-      {{ education.title }}
-    </h2>
-
-    {% for graduation in education.info %}
-    <div class="item">
-      <h4 class="degree">{{ graduation.degree }}</h4>
-      <h5 class="meta">{{ graduation.university }}</h5>
-      <div class="time">{{ graduation.time }}</div>
-    </div><!--//item-->
-    {% endfor %}
-
-  </div><!--//education-container-->
-  {% else %}
-  <section class="section educations-section">
-
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-      </span>
-      {{ education.title }}
-    </h2>
-
-    {% for graduation in education.info %}
-    <div class="item">
-
-      <div class="meta">
-
-        <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
-          <div class="time">{{ graduation.time }}</div>
-        </div><!--//upper-row-->
-
-        <div class="university">{{ graduation.university }}</div>
-      </div><!--//meta-->
-
-      {% if graduation.details %}
-      <div class="details">
-        {{ graduation.details | markdownify }}
-      </div><!--//details-->
+<section class="section section--alt" id="education">
+  <h2 class="section__title">Education</h2>
+  <div class="edu-list">
+    {% for edu in education %}
+    <div class="edu-item">
+      <div class="edu-item__header">
+        <h3 class="edu-item__degree">{{ edu.degree }}</h3>
+        <span class="edu-item__time">{{ edu.time }}</span>
+      </div>
+      <p class="edu-item__university">{{ edu.university }}</p>
+      {% if edu.supervisor %}
+        <p class="edu-item__detail">Advisor: {{ edu.supervisor }}</p>
       {% endif %}
-
-    </div><!--//item-->
+      {% if edu.gpa %}
+        <p class="edu-item__detail">GPA: {{ edu.gpa }}</p>
+      {% endif %}
+    </div>
     {% endfor %}
-
-  </section><!--//section-->
-  {% endif %}
+  </div>
+</section>
 {% endif %}

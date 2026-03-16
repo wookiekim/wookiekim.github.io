@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="section blog-index">
+  <h2 class="section__title">Blog</h2>
+  <p class="blog-index__intro">Blog posts about selected publications and projects.</p>
+  <div class="blog-list">
+    {% assign pubs = site.publications | sort: "order" %}
+    {% for pub in pubs %}
+      {% if pub.content != "" %}
+      <a href="{{ pub.url }}" class="blog-list__item">
+        <span class="blog-list__date">{{ pub.year }}</span>
+        <span class="blog-list__title">{{ pub.title }}</span>
+        <span class="blog-list__venue">{{ pub.venue }}</span>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% assign has_blog = false %}
+  {% for pub in site.publications %}
+    {% if pub.content != "" %}{% assign has_blog = true %}{% endif %}
+  {% endfor %}
+  {% unless has_blog %}
+  <p class="blog-index__empty">No blog posts yet. Check back soon!</p>
+  {% endunless %}
+</section>

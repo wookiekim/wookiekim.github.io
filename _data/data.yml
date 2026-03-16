@@ -1,270 +1,118 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
-sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Seungwook Kim
-    tagline: Computer Vision Researcher
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: wookiekim@postech.ac.kr
-    phone: 010-6343-7828
-    timezone: Korean Standard Time
-    citizenship: Republic of Korea
-    website: wookiekim.github.io #do not add http://
-    linkedin: wookiekim
-    xing: 
+profile:
+  name: Seungwook Kim
+  tagline: Computer Vision & Robotics Researcher
+  avatar: profile.jpg
+  email: wookiekim@postech.ac.kr
+  links:
     github: wookiekim
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@1ndependentGrad'
-    stack-overflow: 9321816/wookiekim # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: assets/misc/CV_seungwook.pdf
+    scholar: "kZ4AN54AAAAJ"
+    linkedin: wookiekim
+    cv: assets/misc/CV_seungwook.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Korean
-          level: Native
+about: |
+  Or you can also call me Wookie. I received my integrated MSc/PhD from <a href="http://cvlab.postech.ac.kr/lab/">POSTECH Computer Vision Lab</a>, advised by <a href="http://cvlab.postech.ac.kr/~mcho/">Prof. Minsu Cho</a>.
+  My research spans interactive & efficient world models and VLAs (ongoing),
+  {text,image}-to-{image,3D,video} generation (<a href="https://arxiv.org/abs/2404.10603">CorrespondentDream</a>, <a href="https://arxiv.org/abs/2509.24410">RapidMV</a>, <a href="https://www.arxiv.org/abs/2509.24241">FreeAction</a>, <a href="https://arxiv.org/abs/2603.00918">SOLACE</a>),
+  visual correspondence (<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf">TransforMatcher</a>, <a href="https://arxiv.org/abs/2311.04336">HCCNet</a>, <a href="https://arxiv.org/abs/2509.24318">MambaMatcher</a>, <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf">DHVR</a>),
+  and 2D/3D equivariance (<a href="https://openreview.net/pdf?id=Lwp_CgpFuA0">SeLCA</a>, <a href="https://arxiv.org/abs/2306.11406">CHOIR</a>, <a href="https://arxiv.org/abs/2404.11156">RIST</a>).
 
-        - idiom: English
-          level: Native
+news:
+  - date: "2026-02"
+    text: "1 paper accepted to CVPR 2026."
+  - date: "2025-06"
+    text: "1 paper accepted to ICCV 2025 (Findings, Oral)."
+  - date: "2025-06"
+    text: "1 paper accepted to CVPR 2025 Workshop on AI4CC."
+  - date: "2025-03"
+    text: "Recognized as Outstanding Reviewer for CVPR 2025."
+  - date: "2025-01"
+    text: "1 paper accepted to WACV 2026."
+  - date: "2024-06"
+    text: "Started PhD internship at ByteDance Seed Team, CA, USA."
+  - date: "2024-02"
+    text: "2 papers accepted to CVPR 2024."
+  - date: "2024-01"
+    text: "Received POSTECHIAN Fellowship (Innovation) 2024."
+  - date: "2023-09"
+    text: "Started PhD internship at ByteDance, CA, USA."
 
-        - idiom: Chinese Mandarin
-          level: Elementary
+honors:
+  - year: "2025"
+    title: "Outstanding Reviewer, CVPR 2025"
+  - year: "2024"
+    title: "POSTECHIAN Fellowship (Innovation) — $6,000"
+  - year: "2023"
+    title: "Graduate School of AI Excellent Paper Award — $500"
+  - year: "2022"
+    title: "POSTECHIAN Fellowship (Leadership) — $1,000"
+  - year: "2021"
+    title: "Graduate School of AI Excellent Paper Award — $500"
+  - year: "2015-20"
+    title: "Jigok Scholarship (Full scholarship), POSTECH — ~$24,000"
 
-    interests:
-      title: Interests
-      info:
-        - item: Urban Drawing
-          link:
-
-        - item: Essay Writing
-          link:
-
-        - item: Piano
-          link:
-
-career-profile:
-    title: Introduction
-    summary: |
-      I am Seungwook Kim, a highly self-motivated researcher mainly researching on (1) visual correspondences between 2D images or 3D point clouds (and their applications), 
-      (2) 2D/3D Equivariance, and (3) {Text,Image}-to-{3D,Video} Generation.
-      I am under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/) in the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/).
-education:
-    title: Education
-    info:
-      - degree: Integrated MSc/PhD in Graduate School of AI
-        university: POSTECH
-        time: 09.2020 - 02.2026
-        details: |
-          Under the supervision of professor [Minsu Cho](http://cvlab.postech.ac.kr/~mcho/).
-          - Graduate School of AI research Excellent Paper Award, 2021, 2023
-          - POSTECHIAN Fellowship (Leadership) 2022
-          - POSTECHIAN Fellowship (Innovation) 2024
-          - Academic Reviewer for: CVPR, ECCV, ICCV, NeurIPS, ICML, TPAMI, 3DV, WACV, ACCV (2022-24)
-          - Outstanding Reviewer for CVPR 2025
-
-      - degree: BSc in Computer Sciences & Engineering
-        university: POSTECH
-        time: 2015 - 2020
-        details: |
-          - **Cumulative GPA**: 3.70 / 4.3
-          - Jigok Scholarship (Full scholarship)
-          - Student Mentoring Program Scholarship (Monthly scholarship)
-          - On-school Work Scholarship (Per-semester scholarship)
 experiences:
-    title: Experiences
-    info:
-      - role: PhD Intern / Bytedance Seed Team
-        time: 06.2024 - 12.2024
-        company: ByteDance, CA, USA
-        details: |
-          - Worked on improving the efficiency and consistency of {image,text}-to-multiview generation models.
-          - Published 1 paper: [RapidMV](https://arxiv.org/abs/2509.24410) (WACV 2026)
-    
-      - role: PhD Intern / Data-Intelligent Creation-Vision and Graphics team
-        time: 09.2023 - 02.2024
-        company: ByteDance, CA, USA
-        details: |
-          - Worked on improving {image,text}-to-3D generation models.
-          - Published 2 papers: [CorrespondentDream](https://wookiekim.github.io/CorrespondentDream/) (CVPR 2024) and [MultiImageDream](https://arxiv.org/pdf/2404.17419) (Arxiv 2024)
+  - role: PhD Intern / Bytedance Seed Team
+    time: "06.2024 - 12.2024"
+    company: ByteDance, CA, USA
+    research: true
+    details: |
+      Worked on improving the efficiency and consistency of {image,text}-to-multiview generation models.
+      Published 1 paper: RapidMV (WACV 2026).
 
-      - role: Technical Chair
-        time: 05.2024 - 12.2024
-        company: ACCV, Hanoi, Vietnam
-        details: |
-          - Managed the Microsoft CMT for coordinating paper submission and reviewing process.
+  - role: PhD Intern / Data-Intelligent Creation-Vision and Graphics team
+    time: "09.2023 - 02.2024"
+    company: ByteDance, CA, USA
+    research: true
+    details: |
+      Worked on improving {image,text}-to-3D generation models.
+      Published 2 papers: CorrespondentDream (CVPR 2024) and MultiImageDream (Arxiv 2024).
 
-      - role: Undergraduate Intern / 3D Map construction from LiDAR
-        time: 03.2020 - 37.2020
-        company: Polaris3D, Pohang, South Korea
-        details: |
-          - Implemented the process of retrieving data from Intel Realsense cameras to Jetson Nano in real-time.
-          - Merged the two streams of data from two different angles to output a 3D map in real-time.
+  - role: Technical Chair
+    time: "05.2024 - 12.2024"
+    company: ACCV, Hanoi, Vietnam
+    research: true
+    details: |
+      Managed the Microsoft CMT for coordinating paper submission and reviewing process.
 
-      - role: Undergraduate Intern / Camera ISP
-        time: 12.2019 - 01.2020
-        company: SK Hynix, Icheon, South Korea
-        details: |
-          - Analyzed the image post-processing algorithms applied to raw images obtained from senseors.
-          - Identified an imbalance in the dark corners (vignetting) of a raw image from a sensor under development.
+  - role: Undergraduate Intern / 3D Map construction from LiDAR
+    time: "03.2020 - 07.2020"
+    company: Polaris3D, Pohang, South Korea
+    research: false
+    details: |
+      Implemented the process of retrieving data from Intel Realsense cameras to Jetson Nano in real-time.
+      Merged the two streams of data from two different angles to output a 3D map in real-time.
 
-      - role: Undergraduate Intern / AI team
-        time: 06.2019 - 08.2019
-        company: Netmarble, Seoul, South Korea
-        details: |
-          - Developed prior speech-to-3D lip synthesis pipeline to be light-weight (mobile-runnable) using TensorFlow.
-          - Accepted to Korea Software Congress 2019 (VOL 46 NO. 02 PP. 1690 ~ 1692 2019. 12)
+  - role: Undergraduate Intern / Camera ISP
+    time: "12.2019 - 01.2020"
+    company: SK Hynix, Icheon, South Korea
+    research: false
+    details: |
+      Analyzed the image post-processing algorithms applied to raw images obtained from sensors.
 
-      - role: Undergraduate Intern / Data Engineering & Analysis team
-        time: 02.2018 — 12.2018
-        company: Dable, Seoul, South Korea
-        details: |
-          - Analyzed heavy-traffic raw data collected at AWS RedShift using PostgreSQL.
-          - Developed batch codes that run regularly on the AWS RedShift to output processed data on a MySQL server.
-          - Analyzed processed data using MySQL.
-          - Developed web crawling system to identify potential blog clients.
+  - role: Undergraduate Intern / AI team
+    time: "06.2019 - 08.2019"
+    company: Netmarble, Seoul, South Korea
+    research: false
+    details: |
+      Developed prior speech-to-3D lip synthesis pipeline to be light-weight (mobile-runnable) using TensorFlow.
 
+  - role: Undergraduate Intern / Data Engineering & Analysis team
+    time: "02.2018 - 12.2018"
+    company: Dable, Seoul, South Korea
+    research: false
+    details: |
+      Analyzed heavy-traffic raw data collected at AWS RedShift using PostgreSQL.
+      Developed batch codes and web crawling system.
 
-# projects:
-#     title: Honours & Awards
-#     # intro: >
-#       assignments:
-#       - title: Velocity
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-#         # link: "#hook"
+education:
+  - degree: Integrated MSc/PhD in Graduate School of AI
+    university: POSTECH
+    time: "09.2020 - 02.2026"
+    supervisor: "Prof. Minsu Cho"
 
-# #       - title: DevStudio
-# #         link: "#"
-# #         tagline: "A responsive website template designed to help web developers/designers market their services."
+  - degree: BSc in Computer Sciences & Engineering
+    university: POSTECH
+    time: "2015 - 2020"
+    gpa: "3.70 / 4.3"
 
-# #       - title: Tempo
-# #         link: "#"
-# #         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-# #       - title: Atom
-# #         link: "#"
-# #         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-# #       - title: Delta
-# #         link: "#"
-# #         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      List of publications which have been accepted / are under review for **international** journals and conferences.
-    papers:
-
-      - title: Improving Text-to-Image Generation with Intrinsic Self-Confidence Rewards
-        link: "https://wookiekim.github.io/"
-        authors: <b>Seungwook Kim</b>, Minsu Cho
-        conference: "Under Review"
-
-      - title: "FreeAction: Training-Free Techniques for Enhanced Fidelity of Trajectory-to-Video Generation" 
-        link: "https://www.arxiv.org/abs/2509.24241"
-        authors: <b>Seungwook Kim</b>, Seunghyeon Lee, Minsu Cho
-        conference: "2025 Conference on Robot Learning @ Seoul, South Korea - Workshop on Learning to Simulate Robot Worlds"
-
-      - title: "RapidMV: Leveraging Spatio-Angular Representations for Efficient and Consistent Text-to-Multi-View Synthesis "
-        link: "https://arxiv.org/abs/2509.24410"
-        authors: <b>Seungwook Kim</b>, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang
-        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026 @ Arizona"
-
-      - title: Similarity-Aware Selective State-Space Modeling for Semantic Correspondence 
-        link: "https://arxiv.org/abs/2509.24318"
-        authors: <b>Seungwook Kim</b>, Minsu Cho
-        conference: "The IEEE / CVF International Conference on Computer Vision (ICCV) 2025 @ Honolulu, Hawaii - Findings <b>(Oral)</b>"
-
-      - title: Harnessing the Power of Training-Free Techniques for Text-to-3D Generation via Score Distillation Sampling 
-        link: "https://arxiv.org/abs/2505.19868"
-        authors: Junhong Lee, <b>Seungwook Kim</b>, Minsu Cho
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025 @ Nashville - Workshop on AI4CC"
-    
-      - title: 3D Geometric Shape Assembly via Efficient Point Cloud Matching
-        link: "https://arxiv.org/abs/2407.10542"
-        authors: Nahyuk Lee*, Juhong Min*, Junha Lee, <b>Seungwook Kim</b>, Kanghee Lee, Jaesik Park, Minsu Cho
-        conference: "The 41st International Conference on Machine Learning (ICML) 2024 @ Vienne"
-
-      - title: Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation
-        link: "https://arxiv.org/abs/2404.17419"
-        authors: Seungwook Kim, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang
-        conference: "Arxiv 2024"
-
-      - title: Enhancing 3D Fidelity of Text-to-3D using Cross-View Correspondences
-        link: "https://arxiv.org/abs/2404.10603"
-        authors: <b>Seungwook Kim</b>, Kejie Li, Xueqing Deng, Yichun Shi, Minsu Cho, Peng Wang
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2024 @ Seattle"
-
-      - title: Learning SO(3)-Invariant Semantic Correspondence via Local Shape Transform
-        link: "https://arxiv.org/abs/2404.11156"
-        authors: Chunghyun Park*, <b>Seungwook Kim*</b>, Jaesik Park, Minsu Cho
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2024 @ Seattle"
-
-      - title: Efficient Semantic Matching with Hypercolumn Correlation (Best paper finalist)
-        link: "https://arxiv.org/abs/2311.04336"
-        authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho
-        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024 @ Big Island"
-
-      - title: Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning
-        link: "https://arxiv.org/abs/2306.11406"
-        authors: <b>Seungwook Kim*</b>, Chunghyun Park, Yoonwoo Jeong, Jaesik Park, Minsu Cho
-        conference: "International Conference on Machine Learning (ICML) 2023 @ Honolulu"
-      
-      - title: Learning Rotation-Equivariant Features for Visual Correspondence
-        link: "https://arxiv.org/abs/2303.15472"
-        authors: Jongmin Lee, Byungjin Kim, <b>Seungwook Kim</b>, Minsu Cho
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2023 @ Vancouver"
-
-      - title: Convolutional Hough Matching Networks for Robust and Efficient Visual Correspondence
-        link: "https://arxiv.org/abs/2109.05221"
-        authors: Juhong Min, <b>Seungwook Kim</b>, Minsu Cho
-        conference: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2023
-        
-      - title: "SeLCA: Self-Supervised Learning of Canonical Axis"
-        link: "https://openreview.net/pdf?id=Lwp_CgpFuA0"
-        authors: <b>Seungwook Kim</b>, Yoonwoo Jeong, Chunghyun Park, Jaesik Park, Minsu Cho
-        conference: "Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS) 2022 Workshop - Symmetry and Geometry in Neural Representations @ New Orleans"
-
-      - title: "TransforMatcher: Match-to-Match Attention for Semantic Correspondence"
-        link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf"
-        authors: <b>Seungwook Kim</b>, Juhong Min, Minsu Cho 
-        conference: "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2022 @ New Orleans"
-
-      - title: Deep Hough Voting for Robust Global Registration
-        link: "https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf"
-        authors: Junha Lee, <b>Seungwook Kim</b>, Minsu Cho, Jaesik Park
-        conference: "The IEEE / CVF International Conference on Computer Vision (ICCV) 2021 @ Montreal"
-
-      - title: Learning to Distill Convolutional Features into Compact Local Descriptors
-        link: "https://openaccess.thecvf.com/content/WACV2021/papers/Lee_Learning_to_Distill_Convolutional_Features_Into_Compact_Local_Descriptors_WACV_2021_paper.pdf"
-        authors: Jongmin Lee, Yoonwoo Jeong, <b>Seungwook Kim</b>, Juhong Min, Minsu Cho
-        conference: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2021 @ Hawaii" 
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & PyTorch
-        level: 98%
-
-      - name: C & C++
-        level: 98%
-
-      - name: PostgreSQL & MySQL & RedShift
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 60%
-
-footer: >
-    © 2024 Seungwook Kim
+footer: "&copy; 2025 Seungwook Kim"

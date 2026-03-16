@@ -1,32 +1,47 @@
-{% assign publications = site.data.data.publications %}
-{% if publications %}
-<section class="section publications-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ publications.title }}
-  </h2>
-
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for publication in publications.papers %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
+{% assign pubs = site.publications | sort: "order" %}
+{% if pubs.size > 0 %}
+<section class="section" id="publications">
+  <h2 class="section__title">Publications & Projects</h2>
+  <div class="pub-list">
+    {% for pub in pubs %}
+    <div class="pub-card">
+      {% if pub.thumbnail != "" %}
+      <div class="pub-card__thumb">
+        <img src="{{ site.baseurl }}/assets/images/publications/{{ pub.thumbnail }}" alt="{{ pub.title }}">
+      </div>
+      {% endif %}
+      <div class="pub-card__info">
+        <h3 class="pub-card__title">{{ pub.title }}</h3>
+        <p class="pub-card__authors">{{ pub.authors }}</p>
+        <p class="pub-card__venue">{{ pub.venue_full }}</p>
+        <div class="pub-card__links">
+          {% if pub.arxiv != "" %}
+            <a href="{{ pub.arxiv }}" class="btn btn--sm" target="_blank">Paper</a>
+          {% elsif pub.pdf != "" %}
+            <a href="{{ pub.pdf }}" class="btn btn--sm" target="_blank">Paper</a>
+          {% endif %}
+          {% if pub.code != "" %}
+            <a href="{{ pub.code }}" class="btn btn--sm{% if pub.code == '#' %} btn--disabled{% endif %}" {% if pub.code != "#" %}target="_blank"{% endif %}>Code</a>
+          {% endif %}
+          {% if pub.project != "" %}
+            <a href="{{ pub.project }}" class="btn btn--sm{% if pub.project == '#' %} btn--disabled{% endif %}" {% if pub.project != "#" %}target="_blank"{% endif %}>Project</a>
+          {% endif %}
+          {% if pub.bibtex %}
+            <button class="btn btn--sm btn--bibtex" onclick="toggleBibtex(this)">BibTeX</button>
+          {% endif %}
+          {% if pub.content != "" %}
+            <a href="{{ pub.url }}" class="btn btn--sm">Blog</a>
+          {% endif %}
+        </div>
+        {% if pub.bibtex %}
+        <div class="pub-card__bibtex" style="display:none;">
+          <pre><code>{{ pub.bibtex }}</code></pre>
+          <button class="btn btn--sm btn--copy" onclick="copyBibtex(this)">Copy</button>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 {% endif %}

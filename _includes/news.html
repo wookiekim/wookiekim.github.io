@@ -1,0 +1,17 @@
+{% assign news = site.data.data.news %}
+{% if news %}
+<section class="section" id="news">
+  <h2 class="section__title">News</h2>
+  <ul class="news-list">
+    {% for item in news %}
+    <li class="news-item{% if forloop.index > 5 %} news-item--hidden{% endif %}">
+      <span class="news-item__date">{{ item.date }}</span>
+      <span class="news-item__text">{{ item.text }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if news.size > 5 %}
+  <button class="toggle-btn" id="news-toggle" onclick="toggleNews()">Show more</button>
+  {% endif %}
+</section>
+{% endif %}
