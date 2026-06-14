@@ -11,6 +11,6 @@ pdf: ""
 code: "https://github.com/wookiekim/FreeAction"
 project: "#"
 bibtex: "@inproceedings{kim2025freeaction,\n  title={FreeAction: Training-Free Techniques for Enhanced Fidelity of Trajectory-to-Video Generation},\n  author={Kim, Seungwook and Lee, Seunghyeon and Cho, Minsu},\n  booktitle={CoRL Workshop},\n  year={2025}\n}"
-selected: false
+selected: true
 order: 2
 ---

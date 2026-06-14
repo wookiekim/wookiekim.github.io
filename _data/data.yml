@@ -1,6 +1,6 @@
 profile:
   name: Seungwook Kim
-  tagline: Computer Vision & Robotics Researcher
+  tagline: Research Scientist, PhD
   avatar: profile.jpg
   email: wookiekim@postech.ac.kr
   links:
@@ -10,13 +10,18 @@ profile:
     cv: assets/misc/CV_seungwook.pdf
 
 about: |
-  Or you can also call me Wookie. I received my integrated MSc/PhD from <a href="http://cvlab.postech.ac.kr/lab/">POSTECH Computer Vision Lab</a>, advised by <a href="http://cvlab.postech.ac.kr/~mcho/">Prof. Minsu Cho</a>.
-  My research spans interactive & efficient world models and VLAs (ongoing),
+  Or you can also call me Wookie. I am a Tech Lead in the research team at <a href="https://gengen.ai" target="_blank">GenGenAI</a>, where I work on generating data with AI, for AI.
+  I received my integrated MSc/PhD from <a href="http://cvlab.postech.ac.kr/lab/">POSTECH Computer Vision Lab</a>, advised by <a href="http://cvlab.postech.ac.kr/~mcho/">Prof. Minsu Cho</a>.
+  My research spans any-modality-to-any-modality generation, world models, and self-improving AI systems (ongoing),
   {text,image}-to-{image,3D,video} generation (<a href="https://arxiv.org/abs/2404.10603">CorrespondentDream</a>, <a href="https://arxiv.org/abs/2509.24410">RapidMV</a>, <a href="https://www.arxiv.org/abs/2509.24241">FreeAction</a>, <a href="https://arxiv.org/abs/2603.00918">SOLACE</a>),
   visual correspondence (<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_TransforMatcher_Match-to-Match_Attention_for_Semantic_Correspondence_CVPR_2022_paper.pdf">TransforMatcher</a>, <a href="https://arxiv.org/abs/2311.04336">HCCNet</a>, <a href="https://arxiv.org/abs/2509.24318">MambaMatcher</a>, <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf">DHVR</a>),
   and 2D/3D equivariance (<a href="https://openreview.net/pdf?id=Lwp_CgpFuA0">SeLCA</a>, <a href="https://arxiv.org/abs/2306.11406">CHOIR</a>, <a href="https://arxiv.org/abs/2404.11156">RIST</a>).
 
 news:
+  - date: "2026-06"
+    text: "Recognized as Outstanding Reviewer for CVPR 2026."
+  - date: "2026-04"
+    text: "Started as Tech Lead / Research Scientist at GenGenAI, Seoul, working on generating data with AI, for AI."
   - date: "2026-03"
     text: "Gave an invited talk on \"Improving the Fidelity of Diffusion Generative Models with Intrinsic Self Guidance\" at Chung-Ang University, hosted by <a href='https://bluedream1121.github.io/'>Prof. Jongmin Lee</a>."
   - date: "2026-02"
@@ -26,7 +31,7 @@ news:
   - date: "2025-06"
     text: "1 paper on text-to-3D generation (<a href='https://arxiv.org/abs/2505.19868'>Training-Free SDS</a>) accepted to CVPR 2025 Workshop on AI4CC."
   - date: "2025-03"
-    text: "Recognized as Outstanding Reviewer for CVPR 2025."
+    text: "Recognized as Outstanding Reviewer for ICCV 2025."
   - date: "2025-01"
     text: "1 paper on multi-view generation (<a href='https://arxiv.org/abs/2509.24410'>RapidMV</a>) accepted to WACV 2026."
   - date: "2024-06"
@@ -39,20 +44,36 @@ news:
     text: "Started PhD internship at ByteDance, CA, USA."
 
 honors:
+  - year: "2026"
+    title: "Outstanding Reviewer, CVPR 2026"
   - year: "2025"
-    title: "Outstanding Reviewer, CVPR 2025"
+    title: "Outstanding Reviewer, ICCV 2025"
+  - year: "2024"
+    title: "Best Paper Award, IPIU 2024 (1 / 311 papers)"
+  - year: "2024"
+    title: "Best Paper Candidate, WACV 2024 (Top 0.6%)"
   - year: "2024"
     title: "POSTECHIAN Fellowship (Innovation) — $6,000"
-  - year: "2023"
-    title: "Graduate School of AI Excellent Paper Award — $500"
+  - year: "2023-25"
+    title: "Hyundai Chung Mong-Koo Foundation Scholarship — ~$13,000/yr"
   - year: "2022"
     title: "POSTECHIAN Fellowship (Leadership) — $1,000"
-  - year: "2021"
-    title: "Graduate School of AI Excellent Paper Award — $500"
+  - year: "2022,23"
+    title: "BK21 Outstanding Research Paper Award — $500"
+  - year: "2020"
+    title: "NAVER AI RUSH — 1st runner-up (×2) — $11,000"
   - year: "2015-20"
     title: "Jigok Scholarship (Full scholarship), POSTECH — ~$24,000"
 
 experiences:
+  - role: Tech Lead / Research Scientist
+    time: "04.2026 - Present"
+    company: GenGenAI, Seoul, South Korea
+    research: true
+    details: |
+      Generating data with AI, for AI. Building scalable pipelines for synthetic image/video data across modalities (EO/IR) in data-scarce scenarios.
+      Developing self-evaluation methods that use intrinsic signals from generative models, and a foundation model for controllable synthetic data generation.
+
   - role: PhD Intern / Bytedance Seed Team
     time: "06.2024 - 12.2024"
     company: ByteDance, CA, USA
@@ -117,4 +138,4 @@ education:
     time: "2015 - 2020"
     gpa: "3.70 / 4.3"
 
-footer: "&copy; 2025 Seungwook Kim"
+footer: "&copy; 2026 Seungwook Kim"

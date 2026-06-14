@@ -1,0 +1,12 @@
+{% assign allpubs = site.publications | sort: "order" %}
+{% if allpubs.size > 0 %}
+<section class="section" id="all-publications">
+  <h2 class="section__title">All Publications</h2>
+  <button class="toggle-btn" id="allpub-toggle" onclick="toggleAllPubs()">Show all publications</button>
+  <div class="pub-list" id="all-pub-list" style="display:none;">
+    {% for pub in allpubs %}
+      {% include pub-card.html pub=pub %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

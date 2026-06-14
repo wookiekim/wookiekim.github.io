@@ -1,7 +1,7 @@
 ---
 title: "Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation"
 slug: multiimagedream
-authors: "Seungwook Kim, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang"
+authors: "<b>Seungwook Kim</b>, Yichun Shi, Kejie Li, Minsu Cho, Peng Wang"
 venue: "Arxiv 2024"
 venue_full: "Arxiv 2024"
 year: 2024

@@ -35,6 +35,15 @@ function toggleExperiences() {
   btn.textContent = isHidden ? 'Show less' : 'Show more';
 }
 
+// All Publications toggle
+function toggleAllPubs() {
+  var list = document.getElementById('all-pub-list');
+  var btn = document.getElementById('allpub-toggle');
+  var isHidden = list.style.display === 'none';
+  list.style.display = isHidden ? 'flex' : 'none';
+  btn.textContent = isHidden ? 'Hide publications' : 'Show all publications';
+}
+
 // BibTeX toggle
 function toggleBibtex(btn) {
   var card = btn.closest('.pub-card');

@@ -1,0 +1,38 @@
+{% assign pub = include.pub %}
+<div class="pub-card">
+  {% if pub.thumbnail != "" %}
+  <div class="pub-card__thumb">
+    <img src="{{ site.baseurl }}/assets/images/publications/{{ pub.thumbnail }}" alt="{{ pub.title }}">
+  </div>
+  {% endif %}
+  <div class="pub-card__info">
+    <h3 class="pub-card__title">{{ pub.title }}</h3>
+    <p class="pub-card__authors">{{ pub.authors }}</p>
+    <p class="pub-card__venue">{{ pub.venue_full }}</p>
+    <div class="pub-card__links">
+      {% if pub.arxiv != "" %}
+        <a href="{{ pub.arxiv }}" class="btn btn--sm" target="_blank">Paper</a>
+      {% elsif pub.pdf != "" %}
+        <a href="{{ pub.pdf }}" class="btn btn--sm" target="_blank">Paper</a>
+      {% endif %}
+      {% if pub.code != "" %}
+        <a href="{{ pub.code }}" class="btn btn--sm{% if pub.code == '#' %} btn--disabled{% endif %}" {% if pub.code != "#" %}target="_blank"{% endif %}>Code</a>
+      {% endif %}
+      {% if pub.project != "" %}
+        <a href="{{ pub.project }}" class="btn btn--sm{% if pub.project == '#' %} btn--disabled{% endif %}" {% if pub.project != "#" %}target="_blank"{% endif %}>Project</a>
+      {% endif %}
+      {% if pub.bibtex %}
+        <button class="btn btn--sm btn--bibtex" onclick="toggleBibtex(this)">BibTeX</button>
+      {% endif %}
+      {% if pub.content != "" %}
+        <a href="{{ pub.url }}" class="btn btn--sm">Blog</a>
+      {% endif %}
+    </div>
+    {% if pub.bibtex %}
+    <div class="pub-card__bibtex" style="display:none;">
+      <pre><code>{{ pub.bibtex }}</code></pre>
+      <button class="btn btn--sm btn--copy" onclick="copyBibtex(this)">Copy</button>
+    </div>
+    {% endif %}
+  </div>
+</div>
